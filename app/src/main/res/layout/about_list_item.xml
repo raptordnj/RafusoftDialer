@@ -1,0 +1,22 @@
+<!-- res/layout/list_item.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="2dp"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/aboutLinkItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="List Item Text" />
+
+    <!-- You can add more views/widgets here if needed -->
+
+</LinearLayout>

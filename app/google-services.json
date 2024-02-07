@@ -1,0 +1,220 @@
+{
+  "project_info": {
+    "project_number": "278011810",
+    "firebase_url": "https://rafusoft-sip-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "rafusoft-sip",
+    "storage_bucket": "rafusoft-sip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:8d2e2253e4a157f0675cfb",
+        "android_client_info": {
+          "package_name": "com.codingwithme.firebasechat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:ad90c98dc1884a5c675cfb",
+        "android_client_info": {
+          "package_name": "com.linephone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:8deceaf5761f0c6b675cfb",
+        "android_client_info": {
+          "package_name": "com.mhmdawad.chatme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:9297ee8c95b5e466675cfb",
+        "android_client_info": {
+          "package_name": "com.rafusoft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:4f994470e130478c675cfb",
+        "android_client_info": {
+          "package_name": "com.rafusoft.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:e8e2525b191cc7f4675cfb",
+        "android_client_info": {
+          "package_name": "com.rafusoft.dialer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:88f6263df10798df675cfb",
+        "android_client_info": {
+          "package_name": "com.rafusoft.dialer.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:827f69261c2459df675cfb",
+        "android_client_info": {
+          "package_name": "com.rafusoft.sip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:1b00a30a9e6d5cf8675cfb",
+        "android_client_info": {
+          "package_name": "com.rafusoft.sip.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:324ecbcce9e694c7675cfb",
+        "android_client_info": {
+          "package_name": "org.linephone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278011810:android:9e53c659adf20683675cfb",
+        "android_client_info": {
+          "package_name": "org.linephone.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
