@@ -6,8 +6,8 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
-def appVersionName = "5.3.6"
-def appVersionCode = 52006
+def appVersionName = "5.3.7"
+def appVersionCode = 52007
 
 def packageName = "com.rafusoft.sip"
 
@@ -251,8 +251,8 @@ dependencies {
         implementation 'com.google.firebase:firebase-messaging'
     }
 
-    implementation 'org.linphone:linphone-sdk-android:5.4+'
-//    implementation 'org.linphone:linphone-sdk-android:5.4.0-alpha.40+9606809'
+//    implementation 'org.linphone:linphone-sdk-android:5.4+'
+    implementation 'org.linphone:linphone-sdk-android:5.4.0-alpha.40+9606809'
 
     // Only enable leak canary prior to release
     // debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.10'
