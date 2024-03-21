@@ -14,20 +14,20 @@
             name="controlsViewModel"
             type="org.linphone.activities.voip.viewmodels.ControlsViewModel" />
     </data>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/voip_buttons_fragment_size">
 
         <ImageView
-            android:id="@+id/hangup"
+            android:id="@+id/numpad"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:background="@drawable/button_call_terminate_background"
-            android:contentDescription="@string/content_description_terminate_call"
-            android:onClick="@{() -> controlsViewModel.hangUp()}"
-            android:padding="5dp"
-            android:src="@drawable/icon_call_hangup"
+            android:background="@drawable/button_background"
+            android:contentDescription="@string/content_description_show_numpad"
+            android:onClick="@{() -> controlsViewModel.showNumpad()}"
+            android:padding="10dp"
+            android:src="@drawable/icon_call_numpad"
+            android:visibility="@{controlsViewModel.isOutgoingEarlyMedia ? View.VISIBLE : View.GONE, default=gone}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintDimensionRatio="W,1.26:1"
             app:layout_constraintStart_toStartOf="parent" />
@@ -48,7 +48,7 @@
             app:layout_constraintDimensionRatio="W,1:1"
             app:layout_constraintEnd_toStartOf="@id/speaker"
             app:layout_constraintHorizontal_chainStyle="packed"
-            app:layout_constraintStart_toStartOf="@id/hangup" />
+            app:layout_constraintStart_toStartOf="@id/numpad" />
 
         <ImageView
             android:id="@+id/speaker"
@@ -63,21 +63,20 @@
             android:src="@drawable/icon_toggle_speaker"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintDimensionRatio="W,1:1"
-            app:layout_constraintEnd_toEndOf="@id/numpad"
+            app:layout_constraintEnd_toEndOf="@id/hangup"
             app:layout_constraintStart_toEndOf="@id/microphone" />
 
         <ImageView
-            android:id="@+id/numpad"
+            android:id="@+id/hangup"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:background="@drawable/button_background"
-            android:contentDescription="@string/content_description_show_numpad"
-            android:onClick="@{() -> controlsViewModel.showNumpad()}"
-            android:padding="10dp"
-            android:src="@drawable/icon_call_numpad"
-            android:visibility="@{controlsViewModel.isOutgoingEarlyMedia ? View.VISIBLE : View.GONE, default=gone}"
+            android:background="@drawable/button_call_terminate_background"
+            android:contentDescription="@string/content_description_terminate_call"
+            android:onClick="@{() -> controlsViewModel.hangUp()}"
+            android:padding="5dp"
+            android:src="@drawable/icon_call_hangup"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintDimensionRatio="W,1:1"
+            app:layout_constraintDimensionRatio="W,1.26:1"
             app:layout_constraintEnd_toEndOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

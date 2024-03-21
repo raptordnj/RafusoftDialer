@@ -34,6 +34,8 @@ open class StatusViewModel : ViewModel() {
 
     val voiceMailCount = MutableLiveData<Int>()
 
+    var balance = "----"
+
     private val listener: CoreListenerStub = object : CoreListenerStub() {
         override fun onAccountRegistrationStateChanged(
             core: Core,

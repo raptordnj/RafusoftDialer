@@ -13,7 +13,12 @@
           "package_name": "com.codingwithme.firebasechat"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -21,7 +26,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -32,7 +42,12 @@
           "package_name": "com.linephone"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -40,7 +55,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -51,7 +71,12 @@
           "package_name": "com.mhmdawad.chatme"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -59,7 +84,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -70,7 +100,12 @@
           "package_name": "com.rafusoft"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -78,7 +113,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -89,7 +129,12 @@
           "package_name": "com.rafusoft.debug"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -97,7 +142,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -108,7 +158,12 @@
           "package_name": "com.rafusoft.dialer"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -116,7 +171,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -127,7 +187,12 @@
           "package_name": "com.rafusoft.dialer.debug"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -135,7 +200,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -146,7 +216,12 @@
           "package_name": "com.rafusoft.sip"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -154,7 +229,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -165,7 +245,20 @@
           "package_name": "com.rafusoft.sip.debug"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-5lp6pj5un1m4i64a2miiqh6nq5a58f2p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rafusoft.sip.debug",
+            "certificate_hash": "000574d3121dc639be28eabade56ad420a3a57a6"
+          }
+        },
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -173,7 +266,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -184,7 +282,12 @@
           "package_name": "org.linephone"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -192,7 +295,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     },
@@ -203,7 +311,12 @@
           "package_name": "org.linephone.debug"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyB6vH5JogzcaKLp-5yye3IIFDGeaiqLBBg"
@@ -211,7 +324,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278011810-m9ekuobeufhra2urmopksm95nr255i7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

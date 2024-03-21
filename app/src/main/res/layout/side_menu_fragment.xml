@@ -290,16 +290,17 @@
                         android:layout_height="45dp"
                         android:padding="10dp"
                         android:contentDescription="VPN"
-                        android:src="@drawable/menu_vpn_default" />
+                        android:src="@drawable/menu_vpn" />
 
                     <TextView
-                        android:text="VPN"
+                        android:id="@+id/vpnMenuTextView"
                         style="@style/standard_text_font"
                         android:layout_width="match_parent"
                         android:layout_height="45dp"
                         android:gravity="center_vertical"
                         android:paddingLeft="5dp"
-                        android:paddingRight="16dp" />
+                        android:paddingRight="16dp"
+                        android:text="VPN" />
 
 
 
@@ -357,7 +358,7 @@
                         android:layout_height="45dp"
                         android:padding="10dp"
                         android:contentDescription="Quit"
-                        android:src="@drawable/menu_quit_default" />
+                        android:src="@drawable/menu_quit" />
 
                     <TextView
                         android:text="Quit"

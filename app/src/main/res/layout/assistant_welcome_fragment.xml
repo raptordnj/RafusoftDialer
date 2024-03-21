@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
         <import type="android.view.View"/>
@@ -119,6 +120,27 @@
                         android:background="@drawable/assistant_button"
                         android:textColor="@drawable/assistant_button_text_color"
                         android:text="@string/assistant_login_linphone" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/gSignInBtn"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:layout_margin="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="fill"
+                        android:layout_height="wrap_content"
+                        android:text="Sign In"
+                        android:enabled="@{viewModel.termsAndPrivacyAccepted}"
+                        app:backgroundTint="@color/white_color"
+                        app:icon="@drawable/googlelogo"
+                        app:iconGravity="start"
+                        app:iconPadding="4dp"
+                        app:iconSize="20dp"
+                        app:iconTint="@color/black_color"
+                        android:textColor="@color/black_color"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/white_color"
+                        />
 
                     <TextView
                         android:id="@+id/generic_connection"

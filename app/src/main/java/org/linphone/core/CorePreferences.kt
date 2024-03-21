@@ -437,6 +437,17 @@ class CorePreferences constructor(private val context: Context) {
             config.setString("app", "default_avatar_path", value)
         }
 
+    var googleAccountID: String?
+        get() = config.getString("app", "google_account_id", null)
+        set(value) {
+            config.setString("app", "google_account_id", value)
+        }
+
+    var googleAccountIDToken: String?
+        get() = config.getString("app", "google_id_token", null)
+        set(value) {
+            config.setString("app", "google_id_token+", value)
+        }
     /* *** Read only application settings, some were previously in non_localizable_custom *** */
 
     /* UI related */

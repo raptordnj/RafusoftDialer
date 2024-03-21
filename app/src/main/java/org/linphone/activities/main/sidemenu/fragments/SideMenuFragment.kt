@@ -21,10 +21,13 @@ package org.linphone.activities.main.sidemenu.fragments
 
 import android.app.Activity
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.os.Parcelable
 import android.provider.MediaStore
 import android.view.View
+import android.widget.TextView
+import android.widget.Toast
 import androidx.core.content.FileProvider
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
@@ -133,6 +136,30 @@ class SideMenuFragment : GenericFragment<SideMenuFragmentBinding>() {
             Log.i("[Side Menu] Stopping Core Context")
             coreContext.notificationsManager.stopForegroundNotification()
             coreContext.stop()
+        }
+
+        // Find the TextView by its ID
+        val vpnMenuTextView: TextView = view.findViewById(R.id.vpnMenuTextView)
+
+        vpnMenuTextView.setOnClickListener {
+            // Create an Intent with the ACTION_VIEW action and the URL
+            val intent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse("https://rafusoft.com/dir/bangladesh-vpn-free")
+            )
+
+            // Check if there's an activity that can handle this intent
+            if (intent.resolveActivity(requireActivity().packageManager) != null) {
+                // If there is, start the activity
+                startActivity(intent)
+            } else {
+                // If there isn't, show an error message or handle it as per your requirement
+                Toast.makeText(
+                    requireContext(),
+                    "No application can handle this request",
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
         }
     }
 

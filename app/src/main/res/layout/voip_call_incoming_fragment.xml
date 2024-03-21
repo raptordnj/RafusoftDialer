@@ -32,11 +32,25 @@
             android:layout_marginTop="20dp"
             android:indeterminate="true"
             android:indeterminateDrawable="@drawable/icon_spinner_rotating"
+            android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
         <TextView
+            android:id="@+id/incoming_call_number"
+            style="@style/call_header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@{callsViewModel.currentCallData.contact.name ?? callsViewModel.currentCallData.displayName, default=`Bilbo Baggins`}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/progress" />
+
+        <TextView
+            android:textSize="20dp"
             android:id="@+id/incoming_call_title"
             style="@style/call_header_title"
             android:layout_width="wrap_content"
@@ -45,7 +59,7 @@
             android:text="@{callsViewModel.currentCallData.isConferenceCall ? @string/conference_incoming_title : @string/call_incoming_title, default=@string/call_incoming_title}"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/progress" />
+            app:layout_constraintTop_toBottomOf="@id/incoming_call_number" />
 
         <Chronometer
             android:id="@+id/incoming_call_timer"
@@ -53,7 +67,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
-            android:visibility="@{callsViewModel.currentCallData.isConferenceCall ? View.GONE : View.VISIBLE, default=visible}"
+            android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/incoming_call_title" />
@@ -87,6 +101,7 @@
             app:layout_constraintDimensionRatio="1:1" />
 
         <TextView
+            android:visibility="gone"
             android:id="@+id/caller_name"
             style="@style/call_header_title"
             android:layout_width="wrap_content"
@@ -101,6 +116,7 @@
             app:layout_constraintTop_toBottomOf="@id/avatar" />
 
         <TextView
+            android:visibility="gone"
             android:id="@+id/sipAddress"
             style="@style/call_header_subtitle"
             android:layout_width="wrap_content"
