@@ -27,6 +27,9 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.lifecycleScope
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
+import io.reactivex.rxjava3.core.Observable
+import io.reactivex.rxjava3.disposables.Disposable
+import java.util.concurrent.TimeUnit
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -90,12 +93,17 @@ class StatusFragment : GenericFragment<StatusFragmentBinding>() {
         textView.setOnClickListener {
             // Code to be executed when the TextView is clicked
             // For example, you can perform some action or navigate to another screen
-            getBalance()
+            // getBalance()
         }
 
-        getBalance()
+        val localAddress =
+            LinphoneApplication.coreContext.core.defaultAccount?.params?.identityAddress?.asStringUriOnly()
 
-        startRepeatingTask()
+        val userName = localAddress?.let { extractSipUsernameFromUri(it) }
+        // startRepeatingTask()
+//        MyAsyncTask(textView).execute(
+//            "http://iptsp.weblinkltd.com/wb-admin/getBalance.php?&username=" + userName
+//        )
     }
 
     fun getBalance() {
@@ -164,7 +172,7 @@ class StatusFragment : GenericFragment<StatusFragmentBinding>() {
         }
     }
     private var job: Job? = null // Job to hold the coroutine
-    private fun startRepeatingTask() {
+    private fun startRepeatingTaskx() {
         // Launch a coroutine in the lifecycle-aware scope of the activity
         job = lifecycleScope.launch {
             // Repeat indefinitely
@@ -179,10 +187,24 @@ class StatusFragment : GenericFragment<StatusFragmentBinding>() {
         }
     }
 
+    private var disposable: Disposable? = null // Disposable to hold the RxJava subscription
+
+    private fun startRepeatingTask() {
+        // Create an Observable that emits items every 10 seconds
+        disposable = Observable.interval(10, TimeUnit.SECONDS)
+            .subscribe {
+                // Perform your task here
+                println("Task executed at ${System.currentTimeMillis()}")
+                Log.e("CronJob", "Task executed at ${System.currentTimeMillis()}")
+                getBalance()
+            }
+    }
+
     override fun onDestroy() {
         super.onDestroy()
         // Cancel the coroutine when the activity is destroyed
-        job?.cancel()
+//        job?.cancel()
+        disposable?.dispose()
     }
 
     private fun showToast(message: String) {
@@ -198,12 +220,12 @@ data class BalanceResponse(
 )
 
 interface ApiService {
-    @GET("wb-admin/getBalance.php")
+    @GET("api/iptsp/balance")
     fun getBalance(@Query("username") username: String): Call<BalanceResponse>
 }
 
 object RetrofitClient {
-    private const val BASE_URL = "http://iptsp.weblinkltd.com/"
+    private const val BASE_URL = "https://micro-service.rafu.be/"
 
     val apiService: ApiService by lazy {
         val retrofit = Retrofit.Builder()

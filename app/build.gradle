@@ -7,8 +7,8 @@ plugins {
     id 'com.google.gms.google-services'
 }
 
-def appVersionName = "5.4.8"
-def appVersionCode = 54048
+def appVersionName = "5.6.9"
+def appVersionCode = 54060
 
 def packageName = "com.rafusoft.sip"
 
